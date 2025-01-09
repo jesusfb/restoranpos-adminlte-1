@@ -2,6 +2,9 @@
   
 @section('title', 'Dashboard - Laravel Admin Panel With Login and Registration')
   
+@section('contents')
+  <div class="row">
+    
 <div class="card">
     <div class="card-header text-center">
         Tablero
@@ -95,3 +98,5 @@
         </div>
     </div>
 </div>
+  </div>
+@endsection
