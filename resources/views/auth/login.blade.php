@@ -24,10 +24,9 @@
                          <div class="card shadow-lg border-0 rounded-lg mt-5 align-content-center">
                                                         
                              <div class="card-header justify-content-center">
-                             
-                             <i style="font-size:64px" class="fa-solid fa-utensils fa-xl"></i>
-                             <i class="ion ion-food"></i>
-                             <ion-icon name="fast-food"></ion-icon>
+                             <br/>
+                             <br/>
+                             <i style="font-size:64px" class="fa-solid fa-utensils fa-xl"></i>                                                          
                                  <!--<img src="resources/images/restorantpos.png" alt="image" width="86px" />-->
                                  <br/>
                                  <a style="font-size:28px; font-weight: bold;"> <b> Restoran</b> POS</a>
