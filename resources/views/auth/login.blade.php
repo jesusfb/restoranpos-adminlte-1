@@ -23,7 +23,7 @@
                          <div class="card shadow-lg border-0 rounded-lg mt-5 align-content-center">
                                                         
                              <div class="card-header justify-content-center">
-                                 <img src="/images/restorantpos.png" alt="image" width="86px" />
+                                 <img src="resources/images/restorantpos.png" alt="image" width="86px" />
                                  <br/>
                                  <a style="font-size:28px; font-weight: bold;"> <b> Restoran</b> POS</a>
                              </div>
