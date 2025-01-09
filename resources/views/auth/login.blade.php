@@ -25,6 +25,7 @@
                                                         
                              <div class="card-header justify-content-center">
                              <i style="font-size:64px" class="fa-solid fa-building fa-xl"></i>
+                             <i class="ion ion-food"></i>
                              <ion-icon name="fast-food"></ion-icon>
                                  <!--<img src="resources/images/restorantpos.png" alt="image" width="86px" />-->
                                  <br/>
