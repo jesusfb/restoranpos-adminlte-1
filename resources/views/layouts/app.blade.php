@@ -50,14 +50,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/dashboard" class="brand-link elevation-4">
-
-    <div class="icon">
-    <i style="font-size:64px" class="fa-solid fa-utensils fa-xl"></i>     
-       <!-- <i style="font-size:64px" style="color: #ffffff;" class="fa-solid fa-utensils fa-xl"></i> -->      
-    </div>
-    
-    
-      <!-- <img src="/images/restorantpos.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">-->
+      <img src="/images/restorantpos.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">RestoranPOS</span>
     </a>
 
