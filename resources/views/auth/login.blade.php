@@ -12,6 +12,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body style="background: #f7e1cd" class="bg-grey">
 <div id="layoutAuthentication">
@@ -24,6 +25,7 @@
                                                         
                              <div class="card-header justify-content-center">
                              <i style="font-size:64px" class="fa-solid fa-building fa-xl"></i>
+                             <ion-icon name="fast-food"></ion-icon>
                                  <!--<img src="resources/images/restorantpos.png" alt="image" width="86px" />-->
                                  <br/>
                                  <a style="font-size:28px; font-weight: bold;"> <b> Restoran</b> POS</a>
