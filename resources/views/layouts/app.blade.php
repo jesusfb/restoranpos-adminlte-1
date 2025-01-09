@@ -71,36 +71,36 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                <?php if ($_SESSION['rol'] == 1 || $_SESSION['rol'] == 3) {
-                                    echo '<li class="nav-item">
+                               
+                                   <li class="nav-item">
                                         <a href="index.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Nueva venta</p>
                                         </a>
-                                    </li>';
-                                } if ($_SESSION['rol'] == 1 || $_SESSION['rol'] == 2) {
-                                    echo '<li class="nav-item">
+                                    </li>
+                                
+                                    <li class="nav-item">
                                         <a href="lista_ventas.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Historial ventas</p>
                                         </a>
-                                    </li>';
-                                } ?>
+                                    </li>
+                                
                             </ul>
 
                         </li>
 
-                        <?php if ($_SESSION['rol'] == 1 || $_SESSION['rol'] == 2) {
-                            echo '<li class="nav-item">
+                        
+                            <li class="nav-item">
                                 <a href="platos.php" class="nav-link">
                                     <i class="nav-icon fas fa-coffee"></i>
                                     <p>
                                         Platillos
                                     </p>
                                 </a>
-                            </li>';
-                        } if ($_SESSION['rol'] == 1) {
-                            echo '<li class="nav-item">
+                            </li>
+                        
+                        <li class="nav-item">
                                 <a href="salas.php" class="nav-link">
                                     <i class="nav-icon fas fa-door-open"></i>
                                     <p>
@@ -131,7 +131,7 @@
                                     </li>
                                 </ul>
                             </li>';
-                        } ?>
+                        
 
 
 
