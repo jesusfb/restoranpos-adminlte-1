@@ -52,7 +52,8 @@
     <a href="/dashboard" class="brand-link elevation-4">
 
     <div class="icon">
-        <i style="font-size:64px" style="color: #ffffff;" class="fa-solid fa-utensils fa-xl"></i>       
+    <i style="font-size:64px" class="fa-solid fa-utensils fa-xl"></i>     
+       <!-- <i style="font-size:64px" style="color: #ffffff;" class="fa-solid fa-utensils fa-xl"></i> -->      
     </div>
     
     
