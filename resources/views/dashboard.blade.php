@@ -2,11 +2,7 @@
   
   
 @section('contents')
-    
-<div class="card">
-    <div class="card-header text-center">
-        Tablero
-    </div>
+<div class="card shadow-lg">
     <div class="card-body">
         <div class="row">
             <div class="col-lg-3 col-6">

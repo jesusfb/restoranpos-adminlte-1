@@ -160,10 +160,10 @@
                 <div class="container-fluid py-2">
                 @yield('contents')
                 </div>
-<!-- /.container-fluid -->
-</div>
-<!-- /.content -->
-</div>
+        <!-- /.container-fluid -->
+        </div>
+        <!-- /.content -->
+        </div>
 <!-- Main Footer -->
 <footer class="main-footer">
     <strong>Copyright &copy; 2025 <a href="https://velozidea.net">VELOZIDEA.NET</a>.</strong>

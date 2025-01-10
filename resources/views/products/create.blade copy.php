@@ -3,8 +3,6 @@
 @section('title', 'Create Product')
   
 @section('contents')
-<div class="card shadow-lg">
-<div class="card-body">
     <h1 class="mb-0">Add Product</h1>
     <hr />
     <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
@@ -32,6 +30,4 @@
             </div>
         </div>
     </form>
-    </div>
-    </div>
 @endsection
