@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoriasController;
-use App\Http\Controllers\PLatilloController;
+use App\Http\Controllers\PlatilloController;
 use App\Http\Controllers\ClientesController;
  
 Route::get('/', function () {
