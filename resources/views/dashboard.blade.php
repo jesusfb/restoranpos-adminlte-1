@@ -1,9 +1,7 @@
 @extends('layouts.app')
   
-@section('title', 'Dashboard - Laravel Admin Panel With Login and Registration')
   
 @section('contents')
-  
     
 <div class="card">
     <div class="card-header text-center">
@@ -70,9 +68,7 @@
                     <a href="lista_ventas.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <!-- ./col -->
-        </div>
-        <div class="row">
+            <div class="row">
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-header border-0">
@@ -96,6 +92,9 @@
                 </div>
             </div>
         </div>
+            <!-- ./col -->
+        </div>
+       
     </div>
 </div>
   

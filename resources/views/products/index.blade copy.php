@@ -3,8 +3,6 @@
 @section('title', 'Home Product')
   
 @section('contents')
-<div class="card shadow-lg">
-<div class="card-body">
     <div class="d-flex align-items-center justify-content-between">
         <h1 class="mb-0">Platillos</h1>
         <a href="{{ route('products.create') }}" class="btn btn-primary">Nuevo Platillo</a>
@@ -55,6 +53,4 @@
             @endif
         </tbody>
     </table>
-    </div>
-    </div>
 @endsection
