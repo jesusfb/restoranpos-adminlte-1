@@ -70,7 +70,7 @@ class PlatilloController extends Controller
     {
         $platillo->update($request->validated());
 
-        return Redirect::route('platillos')
+        return Redirect::route('platillos.index')
             ->with('success', 'Platillo updated successfully');
     }
 
