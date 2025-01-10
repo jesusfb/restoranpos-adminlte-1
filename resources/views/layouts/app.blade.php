@@ -21,7 +21,7 @@
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i style="font-size:32px" class="fas fa-bars"></i></a>
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i style="font-size:28px" class="fas fa-bars"></i></a>
                 </li>
             </ul>
 
@@ -30,7 +30,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i class="fas fa-expand-arrows-alt"></i>
+                        <i style="font-size:28px" class="fas fa-expand-arrows-alt"></i>
                     </a>
                 </li>
             </ul>
