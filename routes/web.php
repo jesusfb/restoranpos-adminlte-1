@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoriasController;
+use App\Http\Controllers\PLatilloController;
 use App\Http\Controllers\ClientesController;
  
 Route::get('/', function () {
@@ -56,6 +57,21 @@ Route::middleware('auth')->group(function () {
         Route::put('edit/{id}', 'update')->name('clientes.update');
         Route::delete('destroy/{id}', 'destroy')->name('clientes.destroy');
     });
+
+    Route::controller(PlatilloController::class)->prefix('platillos')->group(function () {
+        Route::get('', 'index')->name('platillos');
+        Route::get('index', 'index')->name('platillos.index');
+        Route::get('imprimirpdf', 'imprimirpdf')->name('platillos.imprimirpdf');
+        Route::get('imprimir', 'imprimir')->name('platillos.imprimir');
+        Route::get('create', 'create')->name('platillos.create');
+        Route::post('store', 'store')->name('platillos.store');
+        Route::get('show/{id}', 'show')->name('platillos.show');
+        Route::get('edit/{id}', 'edit')->name('platillos.edit');
+        Route::put('edit/{id}', 'update')->name('platillos.update');
+        Route::delete('destroy/{id}', 'destroy')->name('platillos.destroy');
+    });
+    //Route::resource('platillos', PlatilloController::class);
     
+
     Route::get('/profile', [App\Http\Controllers\AuthController::class, 'profile'])->name('profile');
 });

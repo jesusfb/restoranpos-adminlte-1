@@ -116,13 +116,14 @@
 
                         
                             <li class="nav-item">
-                                <a href="/products" class="nav-link">
+                                <a href="/platillos" class="nav-link">
                                     <i class="nav-icon fas fa-coffee"></i>
                                     <p>
                                         Platillos
                                     </p>
                                 </a>
                             </li>
+
                         
                             <li class="nav-item">
                                 <a href="salas.php" class="nav-link">
