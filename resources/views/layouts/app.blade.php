@@ -43,7 +43,7 @@
                 
                 <div class="inner text-center">
                 <i style="font-size:32px" class="fa-solid fa-utensils fa-xl"> </i>   
-               RestoranPOS 
+               Restoran POS 
                 </div>                  
                                                                                                                  
             
@@ -176,6 +176,18 @@
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
+<script>
+$('#tbl').DataTable({
+        responsive: true,
+        scrollX: true,
+        language: {
+            "url": "//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json"
+        },
+        "order": [
+            [0, "desc"]
+        ]
+    });
+    </script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>

@@ -15,7 +15,8 @@
             {{ Session::get('success') }}
         </div>
     @endif
-    <table class="table table-hover">
+    <div class="table-responsive">
+                            <table class="table table-striped table-bordered" id="tbl">
         <thead class="table-primary">
             <tr>
                 <th>#</th>
@@ -57,4 +58,6 @@
     </table>
     </div>
     </div>
+    </div>
 @endsection
+
