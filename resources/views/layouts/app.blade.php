@@ -92,8 +92,15 @@
                             </ul>
 
                         </li>
-
-                     <li class="nav-item">
+                        <li class="nav-item">
+                                <a href="/salas" class="nav-link">
+                                    <i class="nav-icon fas fa-coffee"></i>
+                                    <p>
+                                        Salas
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="/platillos" class="nav-link">
                                     <i class="nav-icon fas fa-coffee"></i>
                                     <p>
@@ -101,6 +108,8 @@
                                     </p>
                                 </a>
                             </li>
+
+
                    
                             <li class="nav-item">
                                 <a href="salas.php" class="nav-link">

@@ -6,6 +6,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoriasController;
 use App\Http\Controllers\PlatilloController;
 use App\Http\Controllers\ClientesController;
+use App\Http\Controllers\SalaController;
  
 Route::get('/', function () {
     return view('auth/login');
@@ -69,6 +70,19 @@ Route::middleware('auth')->group(function () {
         Route::get('edit/{id}', 'edit')->name('platillos.edit');
         Route::put('edit/{id}', 'update')->name('platillos.update');
         Route::delete('destroy/{id}', 'destroy')->name('platillos.destroy');
+    });
+
+    Route::controller(SalaController::class)->prefix('salas')->group(function () {
+        Route::get('', 'index')->name('salas');
+        Route::get('index', 'index')->name('salas.index');
+        Route::get('imprimirpdf', 'imprimirpdf')->name('salas.imprimirpdf');
+        Route::get('imprimir', 'imprimir')->name('salas.imprimir');
+        Route::get('create', 'create')->name('salas.create');
+        Route::post('store', 'store')->name('salas.store');
+        Route::get('show/{id}', 'show')->name('salas.show');
+        Route::get('edit/{id}', 'edit')->name('salas.edit');
+        Route::put('edit/{id}', 'update')->name('salas.update');
+        Route::delete('destroy/{id}', 'destroy')->name('salas.destroy');
     });
     //Route::resource('platillos', PlatilloController::class);
     
