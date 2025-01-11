@@ -21,7 +21,7 @@
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i style="font-size:28px" class="fas fa-bars"></i></a>
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i style="font-size:24px" class="fas fa-bars"></i></a>
                 </li>
             </ul>
 
@@ -30,7 +30,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-                        <i style="font-size:28px" class="fas fa-expand-arrows-alt"></i>
+                        <i style="font-size:24px" class="fas fa-expand-arrows-alt"></i>
                     </a>
                 </li>
             </ul>
@@ -92,14 +92,7 @@
                             </ul>
 
                         </li>
-                        <li class="nav-item">
-                                <a href="/salas" class="nav-link">
-                                    <i class="nav-icon fas fa-coffee"></i>
-                                    <p>
-                                        Salas
-                                    </p>
-                                </a>
-                            </li>
+                     
                             <li class="nav-item">
                                 <a href="/platillos" class="nav-link">
                                     <i class="nav-icon fas fa-coffee"></i>
@@ -112,7 +105,7 @@
 
                    
                             <li class="nav-item">
-                                <a href="salas.php" class="nav-link">
+                                <a href="/salas" class="nav-link">
                                     <i class="nav-icon fas fa-door-open"></i>
                                     <p>
                                         Secciones

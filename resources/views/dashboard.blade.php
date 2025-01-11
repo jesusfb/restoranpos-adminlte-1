@@ -64,33 +64,8 @@
                     <a href="lista_ventas.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-lg-12">
-                <div class="card">
-                    <div class="card-header border-0">
-                        <div class="d-flex justify-content-between">
-                            <h3 class="card-title">Ventas</h3>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="d-flex">
-                            <p class="d-flex flex-column">
-                                <span class="text-bold text-lg">25</span>
-                                <span>Total</span>
-                            </p>
-                        </div>
-                        <!-- /.d-flex -->
-
-                        <div class="position-relative mb-4">
-                            <canvas id="sales-chart" height="200"></canvas>
-                        </div>
-                    </div>
-                </div>
+           
             </div>
-        </div>
-            <!-- ./col -->
-        </div>
-       
     </div>
 </div>
   
