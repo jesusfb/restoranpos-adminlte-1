@@ -1,6 +1,9 @@
 @extends('layouts.app')
   
-  
+@section('template_title')
+    Tablero
+@endsection
+
 @section('contents')
 <div class="card shadow-lg">
     <div class="card-body">
