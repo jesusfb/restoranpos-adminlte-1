@@ -1,12 +1,11 @@
 @extends('layouts.app')
-  
+
 @section('template_title')
-    Tablero
+    Platillos
 @endsection
 
 @section('contents')
-<div class="card shadow-lg">
-    <div class="card-body">
+<div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-6">
                 <!-- small box -->
@@ -69,7 +68,7 @@
             </div>
            
             </div>
-    </div>
+
 </div>
   
 @endsection
